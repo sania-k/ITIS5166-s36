@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+header {
+  border-radius: 0px 0px 20px 20px;
+}
+
+header.hero {
+  height: 170px;
+  background-color: #264ead;
+  padding-top: 40px;
+  width:100%
+}
+
+header.hero h1,
+header.hero h2 {
+  text-align: center;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header.hero h1 {
+  color: #fff;
+  font-size: 4.2em;
+  margin-bottom: 20px;
+}
+
+header.hero h2 {
+  color: #abc4ff;
+}
+
+
